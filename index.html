@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendações</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <div class="app">
+        <aside class="sidebar" id="sidebar">
+            <h2>Recomendações para Você</h2>
+            <ul>
+                <li>Home</li>
+                <li>Playlists</li>
+                <li>Favoritos</li>
+                <li>Configurações</li>
+            </ul>
+        </aside>
+        <div class="content">
+            <header class="header">
+                <button id="toggleSidebar" class="toggle-sidebar">☰</button>
+            </header>
+            <section class="music-player">
+                <div class="player-info">
+                    <img id="albumArt"
+                        src="img/depositphotos_296165116-stock-photo-beautiful-sunrise-mist-phu-tubberk.jpg"
+                        alt="Capa do Álbum">
+                    <h1 id="music-title">I Wanna Be Yours</h1>
+                    <h2 id="artist-name">Arctic Monkeys</h2>
+                    <p id="quote">"Quero ser a presença silenciosa que te envolve, a certeza constante em meio às
+                        incertezas, e a promessa de estar sempre ao teu lado."</p>
+                </div>
+                <div class="controls">
+                    <!-- Botões de navegação -->
+                    <!-- Botões de navegação e aleatorização -->
+                    <div class="controls">
+                        <button id="prevButton" class="nav-button prev-button">◄</button>
+                        <button id="nextButton" class="nav-button next-button">►</button>
+                        
+                    </div>
+                    <audio id="musicPlayer" controls>
+                        <source id="musicSource" src="" type="audio/mpeg">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                    
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="JavaScript/script.js"></script>
+</body>
+
+</html>
